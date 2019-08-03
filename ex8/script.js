@@ -7,8 +7,8 @@
 */
 document.querySelector('#add-button').onclick = addToList;
 function addToList () {
-    let addLi = document.createElement('li');
+    let listItem = document.createElement('li');
     let taskText = document.querySelector('#description').value;
-    addLi.appendChild(taskText)
-    document.querySelector('#todo-list').appendChild(addLi);
+    listItem.innerHTML = taskText
+    document.querySelector('#todo-list').appendChild(listItem);
 }
