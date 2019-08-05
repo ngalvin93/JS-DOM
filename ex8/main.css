@@ -5,3 +5,10 @@
 #description, #search, #todo-list {
     font-size: 1.5em;
 }
+.complete {
+    text-decoration: line-through;
+    color: green;
+}
+li {
+    color: red;
+}

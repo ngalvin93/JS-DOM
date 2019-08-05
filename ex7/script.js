@@ -5,10 +5,10 @@
 let button = document.querySelector('#section-header') // selects button
 button.addEventListener('click', function () {
     let sectionText = document.querySelector('#section');
-    if (sectionText.style.display === "none") {
-    sectionText.style.display = "block";
-    } else {
+    if (sectionText.style.display === "block") {
         sectionText.style.display = "none";
+    } else {
+        sectionText.style.display = "block";
     }
 })
 
