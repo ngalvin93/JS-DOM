@@ -9,10 +9,14 @@
 
 <body>
     <div id="wrapper">
-        <input id="description" type="text" name="description" placeholder="Enter task name">
-        <button id="add-button">Add Task</button>
+        <div class="input-group mb-3">
+            <input id="description" class="form-control" type="text" name="description" placeholder="Enter task name">
+            <div class="input-group-append">
+                <button id="add-button" class="btn btn-outline-secondary" type="button">Add Task</button>
+            </div>
+        </div>
         <ul id="todo-list">
-            <li>Feed the cat</li>
+            <li>Sample task</li>
         </ul>
     </div>
     <script src="/ex8/script.js"></script>
